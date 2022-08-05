@@ -102,9 +102,7 @@ ul,ol{
 
 
 .slideshow{
-	width: 100%;
-    padding-top: 10%;
-    padding-left: 15%;
+	max-width: 100%;
     display: flex;
     justify-content: center;
 	position: relative;
@@ -112,8 +110,6 @@ ul,ol{
 
 .slider ul li{
 	width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .slider li{
@@ -121,7 +117,10 @@ ul,ol{
 }
 
 .slider li img{
+
 	width: 60%;
+    display: flex;
+    object-fit: scale-down;
 }
 
 
@@ -153,6 +152,21 @@ ul,ol{
 
 
 @media screen and (max-width: 600px){
+
+    
+.slideshow{
+    max-width: 100%;
+}
+
+
+
+.slider li img{
+	max-width: 100%;
+    display: flex;
+    object-fit: scale-down;
+}
+
+
 
 	.left, .right{
 		font-size: 30px;
