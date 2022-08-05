@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/css.css">
-    <title>Home page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Slider Jquery</title>
+    <link rel="stylesheet" href="./css/general.css">
+	<link rel="stylesheet" href="./css/menu.css">
+
+	<script src="./js/menuj.js"></script>
+    <script src="./js/menu.js"></script>
+
 </head>
-
 <body>
-
     <header>
         <p>
             Contactanos
@@ -37,7 +37,6 @@
             </a>
         </div>
     </header>
-    
     <div class="menu">
         <div class="logo">
             <img src="https://i.imgur.com/yTX1d2M.jpg" alt="">
@@ -55,21 +54,33 @@
         <a href="">Iniciar sesión</a>
     </div>
 
-    <div class="fondo">
-        <img src="https://i.imgur.com/pXb21kr.jpg" alt="">
-    </div>
 
-    <div class="vevidas">
-        <div class="1">
-            <img src="https://i.imgur.com/LHiPnyz.jpg" alt="">
-        </div>
-        <div class="dos">
-            <img src="https://i.imgur.com/9D2JZmF.jpg" alt="">
-        </div>
-        <div class="tres">
-            <img src="https://i.imgur.com/uZ2PX2X.jpg" alt="">
-        </div>
-    </div>
+	<div class="slideshow">
+		<ul class="slider">
+			
+			<li>
+				<img src="https://i.imgur.com/LHiPnyz.jpg" alt="">
+			</li>
+			<li>
+				<img src="https://i.imgur.com/uZ2PX2X.jpg" alt="" >
+			</li>
+			<li>
+				<img src="https://i.imgur.com/9D2JZmF.jpg" alt="">
+			</li>
+		</ul>
+
+		<ol class="pagination">
+			
+		</ol>
+	
+		<div class="left">
+			<span class="fa fa-chevron-left"></span>
+		</div>
+
+		<div class="right">
+			<span class="fa fa-chevron-right"></span>
+		</div>
+  
+	</div>
 </body>
-
 </html>
